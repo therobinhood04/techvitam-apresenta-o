@@ -212,7 +212,7 @@ a{color:var(--vital)}
 <div class="scan" id="scan"></div>
 
 <header class="monitor">
-  <div class="brand"><img src="brand/logo-texto.png" alt="TechVitam" height="26" style="display:block;height:26px;width:auto"></div>
+  <div class="brand"><img src="logo-texto.png" alt="TechVitam" height="26" style="display:block;height:26px;width:auto"></div>
   <div class="track" aria-hidden="true"><i id="fill"></i><div class="nodes" id="nodes"></div></div>
   <svg class="mini" viewBox="0 0 64 40" aria-hidden="true"><path d="M4 15 C14 15 22 14 27 15" stroke="#2b7ef6"/><circle cx="31" cy="19" r="5" stroke="#2b7ef6"/><circle cx="33" cy="10" r="2" stroke="#2b7ef6" stroke-width="2"/><g id="miniTib"><path d="M37 20 C45 21 52 21 60 21" stroke="#28dbb3"/></g></svg>
   <div class="bpm" aria-live="polite"><b id="bpm">1</b> / <span id="tot">7</span></div>
@@ -242,8 +242,8 @@ a{color:var(--vital)}
       <h2>Somos <span class="hl">Robson e Isaac</span>, da TechVitam.</h2>
       <p class="lead">Nossa empresa constrói parcerias com profissionais da saúde que desejam crescer no digital — com estratégia, estética e tecnologia trabalhando juntas a favor <span class="esp-sua">do seu consultório</span>.</p>
       <div class="duo">
-        <div class="person"><img class="av" src="brand/robson.jpg" alt="Robson"><div><h3>Robson</h3><small>Social media, web design e identidade visual</small></div></div>
-        <div class="person"><img class="av" src="brand/isaac.jpg" alt="Isaac"><div><h3>Isaac</h3><small>Gestão de anúncios e automações com IA</small></div></div>
+        <div class="person"><img class="av" src="robson.jpg" alt="Robson"><div><h3>Robson</h3><small>Social media, web design e identidade visual</small></div></div>
+        <div class="person"><img class="av" src="isaac.jpg" alt="Isaac"><div><h3>Isaac</h3><small>Gestão de anúncios e automações com IA</small></div></div>
       </div>
       <div class="seals">
         <span class="seal"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg>Conformidade com o CFM</span>
@@ -375,16 +375,16 @@ const BONUS=[
  {n:'<svg viewBox="0 0 48 48" width="52" height="52" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 10a4 4 0 0 1 4-4h18a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H16l-7 6v-6a4 4 0 0 1-3-4z"/><path d="M36 18h2a4 4 0 0 1 4 4v10a4 4 0 0 1-3 4v6l-7-6h-8a4 4 0 0 1-4-4v-2"/><path d="M13 13h12M13 18h8"/></svg>',t:"Mini mentoria",d:"Como gravar bons stories, mesmo na correria do dia a dia."},
  {n:'<svg viewBox="0 0 48 48" width="52" height="52" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4h18l8 8v30a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M30 4v8h8"/><path d="M16 18h4a3 3 0 0 1 0 6h-4v-6zm0 6v6m4-6 6 7"/><path d="M16 36h16M16 40h10"/></svg>',t:"Receituário e cartão de visitas",d:"Prontos para impressão, já na sua identidade."}
 ];
-/* Prints: coloque os arquivos na pasta prints/ com estes nomes. Se o arquivo não existir, aparece a prévia desenhada. */
+/* Prints: coloque os arquivos na pasta  com estes nomes. Se o arquivo não existir, aparece a prévia desenhada. */
 const SITES=[
- {img:"prints/marco-tavares.jpg",url:"https://site-marcotavares.vercel.app/",nome:"Dr. Marco Tavares",esp:"Joelho e fisioterapia esportiva · Divinópolis (MG)",h:"Seu joelho precisa do tratamento certo.",bg:"#0e2a44",fg:"#f1f5f9"},
- {img:"prints/leandro-nefro.jpg",url:"https://www.leandronefro.com/",nome:"Dr. Leandro Holanda",esp:"Nefrologia e clínica médica · Fortaleza (CE)",h:"Cuidado renal com humanidade e excelência.",bg:"#123b36",fg:"#ecfdf5"},
- {img:"prints/jessica-custodio.jpg",url:"https://drajessicabcustodio.com/",nome:"Dra. Jéssica Bezerra Custódio",esp:"Pediatria e neonatologia · Fortaleza (CE)",h:"Cuidado e acolhimento em cada etapa, do pré-natal aos primeiros anos de vida.",bg:"#FAF6F0",fg:"#4a3b33"},
- {img:"prints/sabrina-sobreira.jpg",url:"https://www.drasabrinasobreira.com/",nome:"Dra. Sabrina Sobreira",esp:"Nefrologia · Iguatu (CE)",h:"Acompanhamento clínico humanizado em saúde renal.",bg:"#2a2140",fg:"#f5f3ff"}
+ {img:"marco-tavares.jpg",url:"https://site-marcotavares.vercel.app/",nome:"Dr. Marco Tavares",esp:"Joelho e fisioterapia esportiva · Divinópolis (MG)",h:"Seu joelho precisa do tratamento certo.",bg:"#0e2a44",fg:"#f1f5f9"},
+ {img:"leandro-nefro.jpg",url:"https://www.leandronefro.com/",nome:"Dr. Leandro Holanda",esp:"Nefrologia e clínica médica · Fortaleza (CE)",h:"Cuidado renal com humanidade e excelência.",bg:"#123b36",fg:"#ecfdf5"},
+ {img:"jessica-custodio.jpg",url:"https://drajessicabcustodio.com/",nome:"Dra. Jéssica Bezerra Custódio",esp:"Pediatria e neonatologia · Fortaleza (CE)",h:"Cuidado e acolhimento em cada etapa, do pré-natal aos primeiros anos de vida.",bg:"#FAF6F0",fg:"#4a3b33"},
+ {img:"sabrina-sobreira.jpg",url:"https://www.drasabrinasobreira.com/",nome:"Dra. Sabrina Sobreira",esp:"Nefrologia · Iguatu (CE)",h:"Acompanhamento clínico humanizado em saúde renal.",bg:"#2a2140",fg:"#f5f3ff"}
 ];
-const SOCIAL=["prints/social-0.jpg","prints/social-1.jpg","prints/social-2.jpg","prints/social-3.jpg","prints/social-4.jpg","prints/social-5.jpg","prints/social-6.jpg"];
-const IDENT=[2,5,6].map(i=>`prints/identidade-jessica-${i}.jpg`);
-const DEPO=["prints/depoimento-1.jpg","prints/depoimento-2.jpg","prints/depoimento-3.jpg","prints/depoimento-4.jpg","prints/depoimento-5.jpg","prints/depoimento-6.jpg"];
+const SOCIAL=["social-0.jpg","social-1.jpg","social-2.jpg","social-3.jpg","social-4.jpg","social-5.jpg","social-6.jpg"];
+const IDENT=[2,5,6].map(i=>`identidade-jessica-${i}.jpg`);
+const DEPO=["depoimento-1.jpg","depoimento-2.jpg","depoimento-3.jpg","depoimento-4.jpg","depoimento-5.jpg","depoimento-6.jpg"];
 
 /* ---------- ECG de progresso ---------- */
 const steps=$$(".step"), N=steps.length; $("#tot").textContent=N;
